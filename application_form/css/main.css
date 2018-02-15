@@ -1,0 +1,71 @@
+body {
+  background-color: #98D2BF;
+  text-align: center;
+}
+
+main {
+  display: block;
+  /* grid-template-columns: repeat(1, 1fr); */
+  width: 33%;
+  background-color: white;
+  padding: 50px;
+  margin: auto;
+  width: 500px;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+}
+
+input[type="checkbox"]{
+  display: inline-block;
+  width: auto
+}
+
+textarea {
+  width: 100%;
+}
+
+input[type="radio"]{
+  display: inline-block;
+  width: auto;
+}
+
+h1 {
+  font-family: "Oswald";
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+form {
+  font-family: "Open sans";
+}
+
+div{
+  /* display: inline-block; */
+  margin: 5px;
+}
+
+label[for=SF] {
+  font-family: "times new roman";
+}
+
+label[for=CHI] {
+  font-family: "times new roman";
+}
+
+.btn-primary:hover {
+  background-color: #C3B896;
+  border-color: #b69843;
+  border-width: 2px;
+}
+
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary {
+  background-color: #b69843;
+  width: 200px;
+  border-color: #b69843;
+  border-width: 2px;
+}
